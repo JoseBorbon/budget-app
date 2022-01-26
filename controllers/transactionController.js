@@ -25,5 +25,5 @@ exports.deleteTransaction = (req, res) => {
 exports.updateTransaction = (req, res) => {
   const idx = Number(req.params.arrayIndex);
   transactions[idx] = req.body;
-  response.status(200).json(transactions[idx]);
+  res.status(200).json(transactions[idx]);
 };

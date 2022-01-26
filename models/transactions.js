@@ -56,14 +56,14 @@ module.exports = [
     amount: -100,
   },
   {
-    date: '2022/04/03',
+    date: '2022-04-03',
     name: 'Bravo Supermarket',
     source: 'Groceries',
     location: 'Checking Account',
     amount: -76,
   },
   {
-    date: '2022/04/03',
+    date: '2022-04-03',
     name: 'Pet Land',
     source: 'Pet Food',
     location: 'Savings Account',
