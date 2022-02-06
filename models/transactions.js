@@ -4,6 +4,7 @@ module.exports = [
     name: 'Payday',
     source: 'Income',
     location: 'Checking Account',
+    from: 'bank',
     amount: 1000,
   },
   {
@@ -11,6 +12,7 @@ module.exports = [
     name: 'Government Shakedown',
     source: 'Taxes',
     location: 'Savings Account',
+    from: 'get got',
     amount: -300,
   },
   {
@@ -18,6 +20,7 @@ module.exports = [
     name: 'Acorns',
     source: 'Retirement',
     location: 'Checking Account',
+    from: 'retire co',
     amount: -200,
   },
   {
@@ -25,13 +28,15 @@ module.exports = [
     name: 'Rainy day',
     source: 'Savings',
     location: 'Checking Account',
-    amount: -100,
+    from: 'checking',
+    amount: 100,
   },
   {
     date: '2022-04-01',
     name: 'PayMyDues',
     source: 'Credit Card Payment',
     location: 'Checking Account',
+    from: 'Card co',
     amount: -100,
   },
   {
@@ -39,6 +44,7 @@ module.exports = [
     name: 'Residual Income',
     source: 'Birthday Money',
     location: 'Savings Account',
+    from: 'feliz cumpleanos',
     amount: 20,
   },
   {
@@ -46,6 +52,7 @@ module.exports = [
     name: 'Dunkin Donuts',
     source: 'Coffee',
     location: 'Checking Account',
+    from: 'america runs on dunkin',
     amount: -4,
   },
   {
@@ -53,6 +60,7 @@ module.exports = [
     name: 'Verizon Fios',
     source: 'Internet',
     location: 'Credit Account',
+    from: 'fios',
     amount: -100,
   },
   {
@@ -60,6 +68,7 @@ module.exports = [
     name: 'Bravo Supermarket',
     source: 'Groceries',
     location: 'Checking Account',
+    from: 'we hungry',
     amount: -76,
   },
   {
@@ -67,6 +76,7 @@ module.exports = [
     name: 'Pet Land',
     source: 'Pet Food',
     location: 'Savings Account',
+    from: 'woof woof',
     amount: -15,
   },
 ];
